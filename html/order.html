@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/order.css">
+</head>
+<body>
+    <header>
+        <a href="index.html"><img class="logo" src="https://avatars.mds.yandex.net/i?id=7b2858abe1cd28d33538850ebcf1e502-4394907-images-thumbs&n=13" alt=""></a>
+        <span></span>
+        <h1 class="name-company">Watch shop</h1>
+        <nav class="right-text">
+            <nav class="borcall">
+                <a class="colo" href="regest.html">Тіркеу</a>
+                <a class="colo" href="login.html">Кіру</a>
+                <a class="call" href="company.html">Компания туралы</a>
+            </nav>
+        </nav>
+        <div class="burger-container">
+            <img class="burger" src="https://www.svgrepo.com/show/509296/align-justify.svg" alt="">
+            <nav class="mobile-menu">
+                <nav class="borcall">
+                    <a class="colo" href="regest.html">Тіркеу</a>
+                    <a class="colo" href="login.html">Кіру</a>
+                    <a class="call" href="company.html">Компания туралы</a>
+                </nav>
+            </nav>
+        </div>
+    </header>
+    
+            <form class="big">
+                <div class="text-left">
+                    <label class="text-order" for="name">Сіздің атыңыз:</label><br>
+                    <input  class="bord-order" type="name" id="name" placeholder="Атыңызды енгізіңіз" required><br>
+    
+                    <label class="text-order" for="text">Сіздің нөміріңіз:</label><br>
+                    <input class="bord-order" type="text" id="text" placeholder="+7 (___) ___--" required><br>    
+                </div>
+
+             <div class="text-bottom">
+                <label class="text-order" for="adress">Мекен-жайы:</label><br>
+                <input class="bord-order" type="text" id="adress" placeholder="Адрес" required><br>
+
+                <label class="text-order" for="data">Жеткізіп беру күні:</label><br>
+                <input class="bord-order" type="date" id="data" placeholder="Delivery date" required><br>
+
+                <label class="text-order" for="delivery">Жеткізу уақыты:</label><br>
+                <select class="bord-order" name="delivery" id="delivery" placeholder="Delivery time" required>
+                    <option value="08:00-09:00">08:00-ден 09:00</option>
+                    <option value="09:00-10:00">09:00-ден 10:00</option>
+                    <option value="10:00-11:00">10:00-ден 11:00</option>
+                    <option value="11:00-12:00">11:00-ден 12:00</option>
+                    <option value="12:00-13:00">12:00-ден 13:00</option>
+                    <option value="13:00-14:00">13:00-ден 14:00</option>
+                    <option value="14:00-15:00">14:00-ден 15:00</option>
+                    <option value="15:00-16:00">15:00-ден 16:00</option>
+                    <option value="16:00-17:00">16:00-ден 17:00</option>
+                    <option value="17:00-18:00">17:00-ден 18:00</option>
+                    <option value="18:00-19:00">18:00-ден 19:00</option>
+                    <option value="19:00-20:00">19:00-ден 20:00</option>
+                    <option value="20:00-21:00">20:00-ден 21:00</option>
+            </select><br>
+             </div>
+
+            <div class="text-right">
+                <label class="text-order" for="recipientname">Алушының аты:</label><br>
+                <input  class="bord-order" type="recipientname" id="recipientname" placeholder="Алушы атын енгізіңіз" required><br>
+
+                <label class="text-order" for="text">Алушы нөмірі:</label><br>
+                <input class="bord-order" type="text" id="text" placeholder="+7 (___) ___--" required><br>
+
+            </div>
+                <input class="add" type="submit" value="Order" required>
+            </form>
+</body>
+</html>
